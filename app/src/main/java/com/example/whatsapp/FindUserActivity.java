@@ -74,6 +74,8 @@ public class FindUserActivity extends AppCompatActivity {
                             phone = childSnapshot.child("name").getValue().toString();
 
                         UserObject mUser = new UserObject(name, phone);
+                        if(name.equals(phone))
+
                         userList.add(mUser);
                         mUserListAdapter.notifyDataSetChanged();
                         return;

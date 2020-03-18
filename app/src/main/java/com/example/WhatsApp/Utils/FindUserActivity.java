@@ -1,4 +1,4 @@
-package com.example.whatsapp;
+package com.example.WhatsApp.Utils;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,8 +9,11 @@ import android.database.Cursor;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.telephony.TelephonyManager;
-import android.widget.LinearLayout;
 
+import com.example.WhatsApp.R;
+import com.example.WhatsApp.User.UserListAdapter;
+import com.example.WhatsApp.User.UserObject;
+import com.example.WhatsApp.Utils.CountryToPhonePrefix;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

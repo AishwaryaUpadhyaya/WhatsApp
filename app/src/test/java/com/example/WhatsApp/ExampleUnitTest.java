@@ -1,4 +1,4 @@
-package com.example.whatsapp;
+package com.example.WhatsApp;
 
 import org.junit.Test;
 

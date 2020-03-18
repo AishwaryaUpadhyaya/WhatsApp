@@ -1,4 +1,4 @@
-package com.example.whatsapp;
+package com.example.WhatsApp.Utils;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.WhatsApp.R;
+import com.example.WhatsApp.Utils.FindUserActivity;
+import com.example.WhatsApp.Utils.LoginActivity;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class MainPageActivity extends AppCompatActivity {

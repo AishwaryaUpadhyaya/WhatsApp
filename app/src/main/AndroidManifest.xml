@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.whatsapp">
+    package="com.example.WhatsApp">
 
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
@@ -12,9 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FindUserActivity"></activity>
-        <activity android:name=".MainPageActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".Utils.FindUserActivity"></activity>
+        <activity android:name=".Utils.MainPageActivity" />
+        <activity android:name=".Utils.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
